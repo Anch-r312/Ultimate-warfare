@@ -43,9 +43,12 @@
 #im1center{
 	background-color: #00000080;
 	border-radius: 25px;
+	display: flex;
 }
 #im1ctext{
 	background-color: #00000000;
+	height: 50%;
+	width: 100;
 }
 #indexm2{
 	align-items: center;
