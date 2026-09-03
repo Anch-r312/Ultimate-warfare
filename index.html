@@ -15,8 +15,15 @@
 		<link rel="stylesheet" href="css/uwcss.css">
 
 		<script>
-			window.embeddedChatAsyncInit = function() { embeddedChat.init("24684"); };
-			document.head.appendChild(Object.assign(document.createElement('script'), {src: '//www.embedded-chat.com/resource/chat.js', async: true}));
+		  window.embeddedChatAsyncInit = function() {
+		    embeddedChat.init("24684");
+		  };
+		  (function() {
+		    var s = document.createElement("script");
+		    s.async = true;
+		    s.src = "//www.embedded-chat.com/resource/chat.js";
+		    document.head.appendChild(s);
+		  })();
 		</script>
 		
 	</head>
